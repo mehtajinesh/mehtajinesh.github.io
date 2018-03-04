@@ -1,0 +1,76 @@
+$baseColor = #ecf0f1
+
+.column-container
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-wrap: wrap-reverse
+  .column
+    width: 96%
+    margin: 0 auto
+    max-width: 800px
+    &.half
+      width: 48%
+      max-width: 800px
+
+.category-container
+  margin: 30px auto
+  .category-title
+    width: 100%
+    margin: 20px auto 0px
+    h2
+      border-bottom: 1px dashed $baseColor
+      display: inline-block
+      margin: 0 auto
+  
+.experience
+  display: flex
+  align-items: center
+  justify-content: center
+  flex-wrap: wrap
+  margin: 30px auto
+  .logo
+    width: 30%
+    text-align: center
+    img
+      width: 100%
+      max-width: 200px
+  .content
+    width: 60%
+    .title
+      font-size: 1.2em
+
+.project
+  max-width: 700px
+  margin: 30px auto
+  .title
+    font-size: 1.2em
+      
+#contact
+  margin: 8px a euto
+  a
+    color: $baseColor
+    border-bottom: none
+    font-size: 24px
+    margin: 4px
+
+.footer
+  margin: 30px auto
+  font-size: 12px
+
+@media screen and (max-width: 900px)
+  .column
+    &.half
+      width: 80% !important
+
+  .experience
+    .logo
+      width: 100%
+    .content
+      margin: 10px auto
+      width: 100%
+      max-width: 500px
+      text-align: center
+
+  .project
+    text-align: center

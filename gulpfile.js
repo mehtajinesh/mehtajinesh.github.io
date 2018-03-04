@@ -5,13 +5,11 @@ const concat = require('gulp-concat');
 
 const constants = {
   source: {
-    css: 'src/css/**/*.styl',
-    js: 'src/js/**/*.js'
+    css: 'src/css/**/*.styl'
   },
   dist: {
     dir: './',
-    css: 'main.css',
-    js: 'main.js'
+    css: 'main.css'
   }
 };
 
@@ -36,21 +34,10 @@ gulp.task('css', () => {
     .pipe(gulp.dest(constants.dist.dir));
 });
 
-/**
- * Task to compile all JS into one file.
- */
-gulp.task('js', () => {
-  return gulp
-    .src(constants.source.js)
-    .pipe(concat(constants.dist.js))
-    .pipe(gulp.dest(constants.dist.dir));
-});
-
 gulp.task('watch', () => {
   gulp.watch(constants.source.css, ['css']);
-  gulp.watch(constants.source.js, ['js']);
 });
 
-gulp.task('default', ['css', 'js']);
+gulp.task('default', ['css');
 
 gulp.task('build', ['default']);
