@@ -1,0 +1,25 @@
+{
+  "name": "mehtajinesh.github.io",
+  "version": "1.0.0",
+  "description": "Jinesh Mehta's Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehtajinesh/mehtajinesh.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mehtajinesh/mehtajinesh.github.io/issues"
+  },
+  "homepage": "https://github.com/mehtajinesh/mehtajinesh.github.io#readme",
+  "dependencies": {
+    "autoprefixer-stylus": "^0.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-stylus": "^2.7.0"
+  }
+}
