@@ -38,6 +38,6 @@ gulp.task('watch', () => {
   gulp.watch(constants.source.css, ['css']);
 });
 
-gulp.task('default', ['css');
+gulp.task('default', ['css']);
 
 gulp.task('build', ['default']);

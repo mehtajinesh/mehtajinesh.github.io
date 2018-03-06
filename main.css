@@ -92,12 +92,17 @@ img.responsive {
 .experience .content .title {
   font-size: 1.2em;
 }
-.project {
+.project,
+.publication {
   max-width: 700px;
-  margin: 30px auto;
+  margin: 30px auto 40px;
 }
-.project .title {
+.project .title,
+.publication .title {
   font-size: 1.2em;
+}
+.publication .authors {
+  font-style: italic;
 }
 #contact {
   margin: 8px a euto;
@@ -125,7 +130,8 @@ img.responsive {
     max-width: 500px;
     text-align: center;
   }
-  .project {
+  .project,
+  .publication {
     text-align: center;
   }
 }

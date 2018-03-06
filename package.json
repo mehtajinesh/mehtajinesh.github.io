@@ -4,6 +4,8 @@
   "description": "Jinesh Mehta's Website",
   "main": "index.js",
   "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
