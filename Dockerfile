@@ -1,5 +1,2 @@
-FROM alpine:3.7
-
-COPY . /var/www/html/
-
-EXPOSE 8888
+FROM smebberson/alpine-apache
+COPY . /usr/share/nginx/html
