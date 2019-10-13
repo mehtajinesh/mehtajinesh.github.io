@@ -1,2 +1,2 @@
 FROM alpine:3.7
-COPY mehtajinesh.github.io/* /var/www/html/
+COPY . /var/www/html/
