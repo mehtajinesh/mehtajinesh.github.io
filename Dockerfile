@@ -1,2 +1,3 @@
-FROM smebberson/alpine-apache
-COPY . /var/www/localhost/htdocs
+FROM alpine
+COPY . /var/www/html/
+EXPOSE 443/tcp 80/tcp
