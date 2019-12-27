@@ -17,6 +17,10 @@ a {
   border-bottom: 1px solid #ecf0f1;
   text-decoration: none;
 }
+a:hover {
+  color: lightseagreen ;
+  text-decoration: underline;
+}
 .container {
   margin: 0 auto;
   width: 90%;
@@ -113,6 +117,9 @@ img.responsive {
   font-size: 24px;
   margin: 4px;
 }
+#contact a:hover {
+  text-decoration: none;
+}
 .footer {
   margin: 30px auto;
   font-size: 12px;
@@ -136,6 +143,14 @@ img.responsive {
   }
 }
 
+hr.seperator {
+  border: 1px solid white;
+}
+
+.title{
+  font-weight: bold;
+}
+
 .nav ul {
   list-style-type: none;
   text-align: center;
@@ -153,6 +168,7 @@ img.responsive {
 .nav ul li a:hover {
   color: #fcfafa;
   border-bottom-color: #fcfafa;
+  text-decoration: none;
 }
 .nav ul li a.active {
   color: #fcfafa;
