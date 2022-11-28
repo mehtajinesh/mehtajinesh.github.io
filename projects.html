@@ -43,49 +43,58 @@
         <div class="column">
           <div class="project">
               <hr class="seperator"/>
-            <a href="https://github.com/mehtajinesh/Classify-Dog-Breeds-using-CNNs" target="_blank">
-            <div class="title">Classify Dog Breeds using CNNs [Python - Tensorflow - OpenCV - CSS - PHP]</div>
+            <a href="https://github.com/mehtajinesh/Movie-Classification-Netflix" target="_blank">
+            <div class="title">Netflix Model Movie Clustering and Classification [Python, Keras, Tensorflow, NTLK]</div>
             </a>
             <div class="content">
               <p>
-                Modeled a dog breed classifier using Convolutional Neural Networks, which will accept any user-supplied image as input, and if a dog is detected in the image, it will provide an estimate of the dog’s breed. If a human is detected, it will provide an estimate of the dog breed that is most resembling.
+                Preprocessed the netflix movie data with NTLK module. Next, I trained a variety of Deep Learning model for clustering movies and classifying them based on generated label. Used LSTM and BERT for model training.
+              </p>
+              <p>
+                Got a F1-Score of 0.97 using KMeans model for clustering and Pre-trained BERT and BiLSTM model for classification.
               </p>
             </div>
           </div>
           <div class="project">
               <hr class="seperator"/>
-            <a href="https://github.com/mehtajinesh/Sentimental-Analysis-using-PyTorch" target="_blank">
-            <div class="title">Analyze Movie Reviews using Sentiment Analysis [Python - PyTorch - AWS - PHP]</div>
-          </a>
-            <div class="content">
-                  <p>
-                    Engineered a sentimental analysis based web application in which a user can submit a movie review, and the prediction model behind the scenes will predict whether it is a Positive or Negative review.
-                  </p>
-            </div>
-          </div>
-          <div class="project">
-              <hr class="seperator"/>
-            <a href="https://github.com/mehtajinesh/Plagiarism-Detection" target="_blank">
-            <div class="title"> Plagiarism Detection for Text Document [Python - Tensorflow - AWS - PHP]</div>
+            <a href="https://github.com/mehtajinesh/HateSpeechClassificationNLP" target="_blank">
+            <div class="title"> Evaluating Different Hyperparameters for Hate Speech Classification [Python, Keras, TensorFlow]</div>
           </a>
             <div class="content">
               <p>
-                Developed a plagiarism detector that examines a text file and performs binary classification, labeling that file as either plagiarized or not, depending on how similar that text file is to a provided source text.
+                Proposed a Bi-LSTM sequential model consisting of multiple dense layers with numerous nodes, using a ReLU activation function. L2 regularization was used to handle class imbalance.
+              </p>
+              <p>
+                {Evaluated combinations of hyper-parameters (primarily used Learning Rate, Nodes per BiLSTM layer, Number of BiLSTM layers, and Dropout after BiLSTM layers) to acquire the best model with an F1-Score of 0.84.
               </p>
             </div>
             <hr class="seperator"/>
           </div>
+          <div class="project">
+            <hr class="seperator"/>
+          <a href="https://github.com/mehtajinesh/Sentimental-Analysis-using-PyTorch" target="_blank">
+          <div class="title">Sarcasm Detection from News Headlines [Python, TensorFlow, NLTK]</div>
+        </a>
+          <div class="content">
+                <p>
+                  Trained various models, namely CNN+SVM, CNN+LSTM+SVM, and pre-trained BERT-based models on Kaggle’s News Headlines Dataset.
+                </p>
+                <p>
+                  Acquired the maximum accuracy of 98\% with the pre-trained BERT model and an F1-Score of 0.96.
+                </p>
+          </div>
+        </div>
         </div>
       </div>
     </div>
 
-    <div class="footer text-center">
+    <!-- <div class="footer text-center">
       <p>Built by <a href="https://umanggalaiya.in" target="_blank">Umang Galaiya</a> in exchange for <i class="fas fa-utensils"></i></p>
-    </div>
+    </div> -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="js/main.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115065950-1"></script>
-  <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-115065950-1'); </script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-115065950-1'); </script>
 </body>
 </html>
